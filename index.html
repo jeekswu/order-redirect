@@ -1,44 +1,64 @@
 <!DOCTYPE html>
-<html lang="zh-TW">
+<html lang="zh-Hant">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>歡迎來到園遊會點餐</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>歡迎使用點餐系統</title>
   <style>
     body {
-      font-family: 'Arial', sans-serif;
+      font-family: "Noto Sans TC", sans-serif;
       text-align: center;
-      padding: 3rem;
-      font-size: 1.8rem;
-      background: #fefefe;
+      padding: 24px 16px;
+      background-color: #f9f9f9;
+      color: #333;
     }
+
+    h1 {
+      font-size: 22px;
+      margin-bottom: 12px;
+    }
+
+    p {
+      font-size: 16px;
+      margin-bottom: 20px;
+    }
+
+    ol {
+      text-align: left;
+      max-width: 360px;
+      margin: 0 auto 24px auto;
+      font-size: 15px;
+      line-height: 1.5;
+    }
+
     .button {
-      margin-top: 2rem;
-      padding: 1rem 2rem;
-      font-size: 1.6rem;
       background-color: #4CAF50;
       color: white;
+      padding: 12px 24px;
+      font-size: 16px;
       border: none;
-      border-radius: 8px;
+      border-radius: 6px;
       cursor: pointer;
+      box-shadow: 0 3px 5px rgba(0,0,0,0.1);
     }
+
     .button:hover {
       background-color: #45a049;
     }
   </style>
 </head>
 <body>
-  <h1>歡迎來到園遊會點餐頁</h1>
-  <p>請先閱讀以下購買流程，然後點擊下方按鈕進入點餐頁面。</p>
-  <p>購買流程如下：</p>
-  <ul style="text-align: left; display: inline-block;">
-    <li>1. 點選餐點並送出訂單</li>
-    <li>2. 前往攤位前方櫃檯結帳</li>
-    <li>3. 結帳後至攤位側方領取餐點</li>
-  </ul>
+  <h1>🎉 歡迎來到園遊會點餐頁 🎉</h1>
+  <p>請先閱讀下方流程，再點選按鈕開始點餐：</p>
 
-  <button class="button" onclick="window.location.href='https://script.google.com/macros/s/AKfycbzEq8V5Fk8ZLa2LrSAFrk4FcgivfXhdqcXnE7Iq0fTcGQGMbEv73SP3SgbHaku8INyWIg/exec'">
-    進入點餐頁面
-  </button>
+  <ol>
+    <li>選擇餐點後按「送出」。</li>
+    <li>前往攤位<strong>前方櫃檯</strong>結帳。</li>
+    <li>完成付款後，到<strong>側方領餐區</strong>領取餐點。</li>
+  </ol>
+
+  <a href="https://script.google.com/macros/s/AKfycbzEq8V5Fk8ZLa2LrSAFrk4FcgivfXhdqcXnE7Iq0fTcGQGMbEv73SP3SgbHaku8INyWIg/exec">
+    <button class="button">👉 開始點餐</button>
+  </a>
 </body>
 </html>
